@@ -8,7 +8,6 @@
 
 a {
 	text-decoration: none;
-	color: inherit;
 }
 
 body {
@@ -17,6 +16,7 @@ body {
 	line-height: 1.4;
 	min-height: 100vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	padding: 3rem 1.5rem;
@@ -93,6 +93,21 @@ body {
 	&:hover {
 		background: none;
 		color: $clr-neutral;
+	}
+}
+
+.attribution {
+	margin-top: 2rem;
+	font-size: 11px;
+	text-align: center;
+
+	a {
+		color: hsl(228, 45%, 44%);
+		transition: color 0.3s ease;
+
+		&:hover {
+			color: $clr-primary;
+		}
 	}
 }
 
