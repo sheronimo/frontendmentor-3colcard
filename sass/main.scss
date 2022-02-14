@@ -76,6 +76,7 @@ body {
 	border: 2px solid $clr-neutral;
 	border-radius: 50px;
 	transition: all 0.5s ease;
+	cursor: pointer;
 
 	&-sedans {
 		color: $clr-primary;
