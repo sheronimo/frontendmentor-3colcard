@@ -1,0 +1,25 @@
+// Big screens
+@media (min-width: 1024px) {
+	// Card Grid
+	.card-grid {
+		max-width: 920px;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	// Card
+	.card {
+		&:nth-child(1) {
+			border-top-right-radius: 0px;
+			border-bottom-left-radius: 5px;
+		}
+
+		&:nth-child(3) {
+			border-bottom-left-radius: 0px;
+			border-top-right-radius: 5px;
+		}
+
+		&-text {
+			margin-bottom: 5.5rem;
+		}
+	}
+}
