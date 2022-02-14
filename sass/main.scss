@@ -48,6 +48,10 @@ body {
 		border-bottom-right-radius: 5px;
 	}
 
+	&-icon {
+		display: block;
+	}
+
 	&-heading {
 		font-family: $font-heading;
 		font-size: 2rem;
@@ -59,5 +63,32 @@ body {
 	&-text {
 		color: $clr-neutral-lighter;
 		margin-bottom: 1.5rem;
+	}
+}
+
+// Button
+.btn {
+	display: inline-block;
+	background: $clr-neutral;
+	padding: 1.125rem 2rem;
+	border: 2px solid $clr-neutral;
+	border-radius: 50px;
+	transition: all 0.5s ease;
+
+	&-sedans {
+		color: $clr-primary;
+	}
+
+	&-suvs {
+		color: $clr-secondary;
+	}
+
+	&-luxury {
+		color: $clr-secondary-dark;
+	}
+
+	&:hover {
+		background: none;
+		color: $clr-neutral;
 	}
 }

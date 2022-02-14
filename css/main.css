@@ -55,6 +55,10 @@ body {
   border-bottom-right-radius: 5px;
 }
 
+.card-icon {
+  display: block;
+}
+
 .card-heading {
   font-family: "Big Shoulders Display", cursive;
   font-size: 2rem;
@@ -66,5 +70,32 @@ body {
 .card-text {
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #f2f2f2;
+  padding: 1.125rem 2rem;
+  border: 2px solid #f2f2f2;
+  border-radius: 50px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn-sedans {
+  color: #e38826;
+}
+
+.btn-suvs {
+  color: #006970;
+}
+
+.btn-luxury {
+  color: #004241;
+}
+
+.btn:hover {
+  background: none;
+  color: #f2f2f2;
 }
 /*# sourceMappingURL=main.css.map */
