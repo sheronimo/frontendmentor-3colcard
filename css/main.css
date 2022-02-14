@@ -54,4 +54,17 @@ body {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+.card-heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin: 1rem 0;
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 1.5rem;
+}
 /*# sourceMappingURL=main.css.map */

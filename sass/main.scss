@@ -47,4 +47,17 @@ body {
 		border-bottom-left-radius: 5px;
 		border-bottom-right-radius: 5px;
 	}
+
+	&-heading {
+		font-family: $font-heading;
+		font-size: 2rem;
+		text-transform: uppercase;
+		color: $clr-neutral;
+		margin: 1rem 0;
+	}
+
+	&-text {
+		color: $clr-neutral-lighter;
+		margin-bottom: 1.5rem;
+	}
 }
