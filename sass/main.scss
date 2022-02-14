@@ -19,11 +19,32 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 1.3rem;
+	padding: 0 1.3rem;
 }
 
 // Card Grid
 .card-grid {
 	display: grid;
 	grid-template-columns: 1fr;
+}
+
+// Card
+.card {
+	padding: 3rem;
+
+	&:nth-child(1) {
+		background: $clr-primary;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+
+	&:nth-child(2) {
+		background: $clr-secondary;
+	}
+
+	&:nth-child(3) {
+		background: $clr-secondary-dark;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
 }

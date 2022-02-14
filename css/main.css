@@ -25,7 +25,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 1.3rem;
+  padding: 0 1.3rem;
 }
 
 .card-grid {
@@ -33,5 +33,25 @@ body {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
+}
+
+.card {
+  padding: 3rem;
+}
+
+.card:nth-child(1) {
+  background: #e38826;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card:nth-child(2) {
+  background: #006970;
+}
+
+.card:nth-child(3) {
+  background: #004241;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
