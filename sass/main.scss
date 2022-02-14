@@ -14,12 +14,12 @@ a {
 body {
 	font-family: $font-stack;
 	background: $clr-neutral;
-	line-height: 1.5;
+	line-height: 1.4;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 0 1.3rem;
+	padding: 0 1.5rem;
 }
 
 // Card Grid
@@ -54,15 +54,17 @@ body {
 
 	&-heading {
 		font-family: $font-heading;
-		font-size: 2rem;
+		font-size: 2.5rem;
 		text-transform: uppercase;
 		color: $clr-neutral;
-		margin: 1rem 0;
+		margin: 1.2rem 0;
 	}
 
 	&-text {
 		color: $clr-neutral-lighter;
+		font-size: 0.9rem;
 		margin-bottom: 1.5rem;
+		line-height: 1.7;
 	}
 }
 
@@ -70,7 +72,7 @@ body {
 .btn {
 	display: inline-block;
 	background: $clr-neutral;
-	padding: 1.125rem 2rem;
+	padding: 1rem 2rem;
 	border: 2px solid $clr-neutral;
 	border-radius: 50px;
 	transition: all 0.5s ease;
