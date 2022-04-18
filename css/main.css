@@ -2,8 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -15,53 +14,37 @@ body {
   background: #f2f2f2;
   line-height: 1.4;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 3rem 1.5rem;
 }
 
 .card-grid {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
 }
 
 .card {
   padding: 3rem;
 }
-
 .card:nth-child(1) {
   background: #e38826;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
 .card:nth-child(2) {
   background: #006970;
 }
-
 .card:nth-child(3) {
   background: #004241;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-
 .card-icon {
   display: block;
 }
-
 .card-heading {
   font-family: "Big Shoulders Display", cursive;
   font-size: 2.5rem;
@@ -69,7 +52,6 @@ body {
   color: #f2f2f2;
   margin: 1.2rem 0;
 }
-
 .card-text {
   color: rgba(255, 255, 255, 0.75);
   font-size: 0.9rem;
@@ -83,23 +65,18 @@ body {
   padding: 1rem 2rem;
   border: 2px solid #f2f2f2;
   border-radius: 50px;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   cursor: pointer;
 }
-
 .btn-sedans {
   color: #e38826;
 }
-
 .btn-suvs {
   color: #006970;
 }
-
 .btn-luxury {
   color: #004241;
 }
-
 .btn:hover {
   background: none;
   color: #f2f2f2;
@@ -110,13 +87,10 @@ body {
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   color: #3e52a3;
-  -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
-
 .attribution a:hover {
   color: #e38826;
 }
@@ -124,9 +98,9 @@ body {
 @media (min-width: 1024px) {
   .card-grid {
     max-width: 920px;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
+
   .card:nth-child(1) {
     border-top-right-radius: 0px;
     border-bottom-left-radius: 5px;
@@ -138,5 +112,4 @@ body {
   .card-text {
     margin-bottom: 5.5rem;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
