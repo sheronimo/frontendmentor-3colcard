@@ -78,6 +78,7 @@ body {
   color: hsl(179deg, 100%, 13%);
 }
 .btn:hover, .btn:focus {
+  outline: none;
   background: none;
   color: hsl(0deg, 0%, 95%);
 }
