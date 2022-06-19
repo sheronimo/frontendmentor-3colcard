@@ -90,7 +90,8 @@ body {
 		color: $clr-secondary-dark;
 	}
 
-	&:hover {
+	&:hover,
+	&:focus {
 		background: none;
 		color: $clr-neutral;
 	}

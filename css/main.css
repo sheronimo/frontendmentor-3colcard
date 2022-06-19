@@ -11,7 +11,7 @@ a {
 
 body {
   font-family: "Lexend Deca", sans-serif;
-  background: #f2f2f2;
+  background: hsl(0deg, 0%, 95%);
   line-height: 1.4;
   min-height: 100vh;
   display: flex;
@@ -30,15 +30,15 @@ body {
   padding: 3rem;
 }
 .card:nth-child(1) {
-  background: #e38826;
+  background: hsl(31deg, 77%, 52%);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 .card:nth-child(2) {
-  background: #006970;
+  background: hsl(184deg, 100%, 22%);
 }
 .card:nth-child(3) {
-  background: #004241;
+  background: hsl(179deg, 100%, 13%);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -49,11 +49,11 @@ body {
   font-family: "Big Shoulders Display", cursive;
   font-size: 2.5rem;
   text-transform: uppercase;
-  color: #f2f2f2;
+  color: hsl(0deg, 0%, 95%);
   margin: 1.2rem 0;
 }
 .card-text {
-  color: rgba(255, 255, 255, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
   font-size: 0.9rem;
   margin-bottom: 1.5rem;
   line-height: 1.7;
@@ -61,25 +61,25 @@ body {
 
 .btn {
   display: inline-block;
-  background: #f2f2f2;
+  background: hsl(0deg, 0%, 95%);
   padding: 1rem 2rem;
-  border: 2px solid #f2f2f2;
+  border: 2px solid hsl(0deg, 0%, 95%);
   border-radius: 50px;
   transition: all 0.5s ease;
   cursor: pointer;
 }
 .btn-sedans {
-  color: #e38826;
+  color: hsl(31deg, 77%, 52%);
 }
 .btn-suvs {
-  color: #006970;
+  color: hsl(184deg, 100%, 22%);
 }
 .btn-luxury {
-  color: #004241;
+  color: hsl(179deg, 100%, 13%);
 }
-.btn:hover {
+.btn:hover, .btn:focus {
   background: none;
-  color: #f2f2f2;
+  color: hsl(0deg, 0%, 95%);
 }
 
 .attribution {
@@ -88,11 +88,11 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: #3e52a3;
+  color: hsl(228deg, 45%, 44%);
   transition: color 0.3s ease;
 }
 .attribution a:hover {
-  color: #e38826;
+  color: hsl(31deg, 77%, 52%);
 }
 
 @media (min-width: 1024px) {
